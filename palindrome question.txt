@@ -1,0 +1,13 @@
+let N=7;
+let str="racecar";
+  let new_str ="";
+  for (let a=N-1; a>=0; a--){
+       new_str = new_str + str[a];
+  }
+if(new_str==str){
+  console.log("Yes "+ str +" is a palindrome")
+}
+else{
+  console.log("No "+str+" is not a palindrome")
+}
+       
